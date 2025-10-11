@@ -48,9 +48,9 @@ private:
     //for storing when the log started
     std::chrono::steady_clock::time_point t0_;
 
-    bool show_info_    = true;
+    bool show_info_ = true;
     bool show_warning_ = true;
-    bool show_error_   = true;
+    bool show_error_ = true;
 
     //for saving to the debug log
 

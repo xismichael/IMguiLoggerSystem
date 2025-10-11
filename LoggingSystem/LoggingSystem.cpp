@@ -61,12 +61,12 @@ void LoggingSystem::SaveAllToFile_(const char* path) {
     FILE* f = std::fopen(path, "w");
     if (!f) return;
 
-    for (const auto& e : buf_) {
+    for (const LogEntry& e : buf_) {
         // for calculating time stamp
         uint64_t ms = e.time_ms % 1000;
-        uint64_t s  = (e.time_ms / 1000) % 60;
-        uint64_t m  = (e.time_ms / (1000*60)) % 60;
-        uint64_t h  = (e.time_ms / (1000*60*60));
+        uint64_t s = (e.time_ms / 1000) % 60;
+        uint64_t m = (e.time_ms / (1000*60)) % 60;
+        uint64_t h = (e.time_ms / (1000*60*60));
         char stamp[32];
         std::snprintf(stamp, sizeof(stamp), "[%02llu:%02llu:%02llu.%03llu]",
                       (unsigned long long)h, (unsigned long long)m,
@@ -109,7 +109,7 @@ void LoggingSystem::DrawWindow() {
     ImGui::BeginChild("log_scroller", ImVec2(0, -ImGui::GetFrameHeightWithSpacing()),
                       false, ImGuiWindowFlags_HorizontalScrollbar);
 
-    for (const auto& e : buf_) {
+    for (const LogEntry& e : buf_) {
         // filter by level
         if ((e.level == LogLevel::Info && !show_info_)||
             (e.level == LogLevel::Warning && !show_warning_)||
