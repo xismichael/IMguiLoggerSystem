@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/michaelxi/Desktop/CMPM123/Logger System/imgui-starter/Application.cpp" "CMakeFiles/demo.dir/Application.cpp.o" "gcc" "CMakeFiles/demo.dir/Application.cpp.o.d"
+  "/Users/michaelxi/Desktop/CMPM123/Logger System/imgui-starter/LoggingSystem/LoggingSystem.cpp" "CMakeFiles/demo.dir/LoggingSystem/LoggingSystem.cpp.o" "gcc" "CMakeFiles/demo.dir/LoggingSystem/LoggingSystem.cpp.o.d"
   "/Users/michaelxi/Desktop/CMPM123/Logger System/imgui-starter/imgui/imgui.cpp" "CMakeFiles/demo.dir/imgui/imgui.cpp.o" "gcc" "CMakeFiles/demo.dir/imgui/imgui.cpp.o.d"
   "/Users/michaelxi/Desktop/CMPM123/Logger System/imgui-starter/imgui/imgui_demo.cpp" "CMakeFiles/demo.dir/imgui/imgui_demo.cpp.o" "gcc" "CMakeFiles/demo.dir/imgui/imgui_demo.cpp.o.d"
   "/Users/michaelxi/Desktop/CMPM123/Logger System/imgui-starter/imgui/imgui_draw.cpp" "CMakeFiles/demo.dir/imgui/imgui_draw.cpp.o" "gcc" "CMakeFiles/demo.dir/imgui/imgui_draw.cpp.o.d"

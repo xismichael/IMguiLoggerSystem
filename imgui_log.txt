@@ -11,3 +11,5 @@
 [ Copy "Hello, world!" to clipboard ]
 [ Copy "Hello, world!" to clipboard ]
 [ Copy "Hello, world!" to clipboard ]
+[ Copy "Hello, world!" to clipboard ]
+[ Copy "Hello, world!" to clipboard ]

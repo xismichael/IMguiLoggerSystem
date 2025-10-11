@@ -37,6 +37,12 @@
 },
 {
   "directory": "/Users/michaelxi/Desktop/CMPM123/Logger System/imgui-starter/build",
+  "command": "/usr/bin/clang++  -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include -g -std=gnu++20 -arch arm64 -o CMakeFiles/demo.dir/LoggingSystem/LoggingSystem.cpp.o -c \"/Users/michaelxi/Desktop/CMPM123/Logger System/imgui-starter/LoggingSystem/LoggingSystem.cpp\"",
+  "file": "/Users/michaelxi/Desktop/CMPM123/Logger System/imgui-starter/LoggingSystem/LoggingSystem.cpp",
+  "output": "CMakeFiles/demo.dir/LoggingSystem/LoggingSystem.cpp.o"
+},
+{
+  "directory": "/Users/michaelxi/Desktop/CMPM123/Logger System/imgui-starter/build",
   "command": "/usr/bin/clang++  -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include -g -std=gnu++20 -arch arm64 -o CMakeFiles/demo.dir/imgui/imgui_impl_opengl3.cpp.o -c \"/Users/michaelxi/Desktop/CMPM123/Logger System/imgui-starter/imgui/imgui_impl_opengl3.cpp\"",
   "file": "/Users/michaelxi/Desktop/CMPM123/Logger System/imgui-starter/imgui/imgui_impl_opengl3.cpp",
   "output": "CMakeFiles/demo.dir/imgui/imgui_impl_opengl3.cpp.o"

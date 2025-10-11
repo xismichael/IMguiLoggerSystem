@@ -53,6 +53,7 @@ add_executable(demo Application.cpp
                           imgui/imgui_tables.cpp
                           imgui/imgui_widgets.cpp
                           imgui/imgui.cpp
+                          LoggingSystem/LoggingSystem.cpp
  
                           ${BCKD_FILE}
                           ${MAIN_FILE}

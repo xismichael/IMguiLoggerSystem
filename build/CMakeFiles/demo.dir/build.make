@@ -156,10 +156,24 @@ CMakeFiles/demo.dir/imgui/imgui.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/demo.dir/imgui/imgui.cpp.s"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/michaelxi/Desktop/CMPM123/Logger System/imgui-starter/imgui/imgui.cpp" -o CMakeFiles/demo.dir/imgui/imgui.cpp.s
 
+CMakeFiles/demo.dir/LoggingSystem/LoggingSystem.cpp.o: CMakeFiles/demo.dir/flags.make
+CMakeFiles/demo.dir/LoggingSystem/LoggingSystem.cpp.o: /Users/michaelxi/Desktop/CMPM123/Logger\ System/imgui-starter/LoggingSystem/LoggingSystem.cpp
+CMakeFiles/demo.dir/LoggingSystem/LoggingSystem.cpp.o: CMakeFiles/demo.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/michaelxi/Desktop/CMPM123/Logger System/imgui-starter/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/demo.dir/LoggingSystem/LoggingSystem.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/LoggingSystem/LoggingSystem.cpp.o -MF CMakeFiles/demo.dir/LoggingSystem/LoggingSystem.cpp.o.d -o CMakeFiles/demo.dir/LoggingSystem/LoggingSystem.cpp.o -c "/Users/michaelxi/Desktop/CMPM123/Logger System/imgui-starter/LoggingSystem/LoggingSystem.cpp"
+
+CMakeFiles/demo.dir/LoggingSystem/LoggingSystem.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/demo.dir/LoggingSystem/LoggingSystem.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/michaelxi/Desktop/CMPM123/Logger System/imgui-starter/LoggingSystem/LoggingSystem.cpp" > CMakeFiles/demo.dir/LoggingSystem/LoggingSystem.cpp.i
+
+CMakeFiles/demo.dir/LoggingSystem/LoggingSystem.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/demo.dir/LoggingSystem/LoggingSystem.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/michaelxi/Desktop/CMPM123/Logger System/imgui-starter/LoggingSystem/LoggingSystem.cpp" -o CMakeFiles/demo.dir/LoggingSystem/LoggingSystem.cpp.s
+
 CMakeFiles/demo.dir/imgui/imgui_impl_opengl3.cpp.o: CMakeFiles/demo.dir/flags.make
 CMakeFiles/demo.dir/imgui/imgui_impl_opengl3.cpp.o: /Users/michaelxi/Desktop/CMPM123/Logger\ System/imgui-starter/imgui/imgui_impl_opengl3.cpp
 CMakeFiles/demo.dir/imgui/imgui_impl_opengl3.cpp.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/michaelxi/Desktop/CMPM123/Logger System/imgui-starter/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/demo.dir/imgui/imgui_impl_opengl3.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/michaelxi/Desktop/CMPM123/Logger System/imgui-starter/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/demo.dir/imgui/imgui_impl_opengl3.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/imgui/imgui_impl_opengl3.cpp.o -MF CMakeFiles/demo.dir/imgui/imgui_impl_opengl3.cpp.o.d -o CMakeFiles/demo.dir/imgui/imgui_impl_opengl3.cpp.o -c "/Users/michaelxi/Desktop/CMPM123/Logger System/imgui-starter/imgui/imgui_impl_opengl3.cpp"
 
 CMakeFiles/demo.dir/imgui/imgui_impl_opengl3.cpp.i: cmake_force
@@ -173,7 +187,7 @@ CMakeFiles/demo.dir/imgui/imgui_impl_opengl3.cpp.s: cmake_force
 CMakeFiles/demo.dir/main_macos.cpp.o: CMakeFiles/demo.dir/flags.make
 CMakeFiles/demo.dir/main_macos.cpp.o: /Users/michaelxi/Desktop/CMPM123/Logger\ System/imgui-starter/main_macos.cpp
 CMakeFiles/demo.dir/main_macos.cpp.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/michaelxi/Desktop/CMPM123/Logger System/imgui-starter/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/demo.dir/main_macos.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/michaelxi/Desktop/CMPM123/Logger System/imgui-starter/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/demo.dir/main_macos.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/main_macos.cpp.o -MF CMakeFiles/demo.dir/main_macos.cpp.o.d -o CMakeFiles/demo.dir/main_macos.cpp.o -c "/Users/michaelxi/Desktop/CMPM123/Logger System/imgui-starter/main_macos.cpp"
 
 CMakeFiles/demo.dir/main_macos.cpp.i: cmake_force
@@ -187,7 +201,7 @@ CMakeFiles/demo.dir/main_macos.cpp.s: cmake_force
 CMakeFiles/demo.dir/imgui/imgui_impl_glfw.cpp.o: CMakeFiles/demo.dir/flags.make
 CMakeFiles/demo.dir/imgui/imgui_impl_glfw.cpp.o: /Users/michaelxi/Desktop/CMPM123/Logger\ System/imgui-starter/imgui/imgui_impl_glfw.cpp
 CMakeFiles/demo.dir/imgui/imgui_impl_glfw.cpp.o: CMakeFiles/demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/michaelxi/Desktop/CMPM123/Logger System/imgui-starter/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/demo.dir/imgui/imgui_impl_glfw.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/michaelxi/Desktop/CMPM123/Logger System/imgui-starter/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/demo.dir/imgui/imgui_impl_glfw.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/demo.dir/imgui/imgui_impl_glfw.cpp.o -MF CMakeFiles/demo.dir/imgui/imgui_impl_glfw.cpp.o.d -o CMakeFiles/demo.dir/imgui/imgui_impl_glfw.cpp.o -c "/Users/michaelxi/Desktop/CMPM123/Logger System/imgui-starter/imgui/imgui_impl_glfw.cpp"
 
 CMakeFiles/demo.dir/imgui/imgui_impl_glfw.cpp.i: cmake_force
@@ -206,6 +220,7 @@ demo_OBJECTS = \
 "CMakeFiles/demo.dir/imgui/imgui_tables.cpp.o" \
 "CMakeFiles/demo.dir/imgui/imgui_widgets.cpp.o" \
 "CMakeFiles/demo.dir/imgui/imgui.cpp.o" \
+"CMakeFiles/demo.dir/LoggingSystem/LoggingSystem.cpp.o" \
 "CMakeFiles/demo.dir/imgui/imgui_impl_opengl3.cpp.o" \
 "CMakeFiles/demo.dir/main_macos.cpp.o" \
 "CMakeFiles/demo.dir/imgui/imgui_impl_glfw.cpp.o"
@@ -219,13 +234,14 @@ demo: CMakeFiles/demo.dir/imgui/imgui_draw.cpp.o
 demo: CMakeFiles/demo.dir/imgui/imgui_tables.cpp.o
 demo: CMakeFiles/demo.dir/imgui/imgui_widgets.cpp.o
 demo: CMakeFiles/demo.dir/imgui/imgui.cpp.o
+demo: CMakeFiles/demo.dir/LoggingSystem/LoggingSystem.cpp.o
 demo: CMakeFiles/demo.dir/imgui/imgui_impl_opengl3.cpp.o
 demo: CMakeFiles/demo.dir/main_macos.cpp.o
 demo: CMakeFiles/demo.dir/imgui/imgui_impl_glfw.cpp.o
 demo: CMakeFiles/demo.dir/build.make
 demo: /opt/homebrew/lib/libglfw.3.4.dylib
 demo: CMakeFiles/demo.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Users/michaelxi/Desktop/CMPM123/Logger System/imgui-starter/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable demo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Users/michaelxi/Desktop/CMPM123/Logger System/imgui-starter/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable demo"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/demo.dir/link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold "Copying resources to runtime output dir"
 	/opt/homebrew/bin/cmake -E copy_directory /Users/michaelxi/Desktop/CMPM123/Logger\ System/imgui-starter/resources /Users/michaelxi/Desktop/CMPM123/Logger\ System/imgui-starter/build/resources

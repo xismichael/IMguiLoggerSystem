@@ -547,6 +547,30 @@ Application.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/Application.cpp.s
 .PHONY : Application.cpp.s
 
+LoggingSystem/LoggingSystem.o: LoggingSystem/LoggingSystem.cpp.o
+.PHONY : LoggingSystem/LoggingSystem.o
+
+# target to build an object file
+LoggingSystem/LoggingSystem.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/LoggingSystem/LoggingSystem.cpp.o
+.PHONY : LoggingSystem/LoggingSystem.cpp.o
+
+LoggingSystem/LoggingSystem.i: LoggingSystem/LoggingSystem.cpp.i
+.PHONY : LoggingSystem/LoggingSystem.i
+
+# target to preprocess a source file
+LoggingSystem/LoggingSystem.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/LoggingSystem/LoggingSystem.cpp.i
+.PHONY : LoggingSystem/LoggingSystem.cpp.i
+
+LoggingSystem/LoggingSystem.s: LoggingSystem/LoggingSystem.cpp.s
+.PHONY : LoggingSystem/LoggingSystem.s
+
+# target to generate assembly for a file
+LoggingSystem/LoggingSystem.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/LoggingSystem/LoggingSystem.cpp.s
+.PHONY : LoggingSystem/LoggingSystem.cpp.s
+
 imgui/imgui.o: imgui/imgui.cpp.o
 .PHONY : imgui/imgui.o
 
@@ -782,6 +806,9 @@ help:
 	@echo "... Application.o"
 	@echo "... Application.i"
 	@echo "... Application.s"
+	@echo "... LoggingSystem/LoggingSystem.o"
+	@echo "... LoggingSystem/LoggingSystem.i"
+	@echo "... LoggingSystem/LoggingSystem.s"
 	@echo "... imgui/imgui.o"
 	@echo "... imgui/imgui.i"
 	@echo "... imgui/imgui.s"

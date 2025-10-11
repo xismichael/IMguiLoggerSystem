@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/demo.dir/Application.cpp.o"
   "CMakeFiles/demo.dir/Application.cpp.o.d"
+  "CMakeFiles/demo.dir/LoggingSystem/LoggingSystem.cpp.o"
+  "CMakeFiles/demo.dir/LoggingSystem/LoggingSystem.cpp.o.d"
   "CMakeFiles/demo.dir/imgui/imgui.cpp.o"
   "CMakeFiles/demo.dir/imgui/imgui.cpp.o.d"
   "CMakeFiles/demo.dir/imgui/imgui_demo.cpp.o"
