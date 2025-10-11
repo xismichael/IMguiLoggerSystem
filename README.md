@@ -1,10 +1,22 @@
-# imgui-starter
+# Logging System
 
-Using the provided code provided here you have a base Dear IMGUI project for Windows and macOS. There is a basic CMakefile in this project that includes the necessary files to create an application that brings up just a basic screen.
+Debug Logging system on top of some example code at https://github.com/gdevine-ucsc/imgui-starter.git
 
-You must add a logging system to this code that you will be using THROUGHOUT the quarter. This logging system should do two things.
+os system: Mac
 
-It should be able to log to a Dear IMGUI debug console
-It should also log its output to a file.
+Design:
 
-For the submission, make a branch of this repo and submit a new GitHub URL
+- a pop up window that can be imported via a function
+- three logging level, if Info, Warning, and Error
+- A logging function that takes in the logging level, and a message that can optionally contain arguments, like a C style text
+- Each log entry is stored in a vector, with a specified struct that contains the time being logged, level type, and the message
+- can custom changed the file the logs are saved to
+
+Questions I asked the teacher prior to starting:
+
+- How would the logging system be generally called, and to what degree of sophesication does the log level have to display?
+- would the logging system handle system crashes automatically?
+
+
+after getting answers from the above question, I decided to make a logging system that focus on simplicity and the essence of logging: displaying, storing, and separting logs.
+
